@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAEXfTPPP5Er7EyTQMctvDSZTYVRLz8g2w", // process.env.NEXT_PUBLIC_FIREBASE_API_KEY
-  authDomain: "expense-tracker-c105f.firebaseapp.com", // process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-  projectId: "expense-tracker-c105f", // process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID
-  storageBucket: "expense-tracker-c105f.appspot.com", // process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-  messagingSenderId: "668493169179", // process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-  appId: "1:668493169179:web:d353d34d1813855081eebe", // process.env.NEXT_PUBLIC_FIREBASE_APP_ID
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY, // process.env.NEXT_PUBLIC_FIREBASE_API_KEY
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN, // process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID, // process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET, // process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID, // process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID, // process.env.NEXT_PUBLIC_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
