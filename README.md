@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# This project is for learning how to use firebase as a database
 
-## Getting Started
-
-First, run the development server:
+## What I have learned from this project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  - Setup firebase database within project
+  - Understand more function of Next.js/React.js.
+  - Understand how firebase database are working.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What I have implemented by myself
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  1. Fix database are not working after deployment (On delevelopment)
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Feel free to visit https://expense-tracker-delta-livid.vercel.app/
 
-## Learn More
+This website are not 100% completed, a basic function are working fine but the database are not connected.
+So if you refresh it will not save a data that you filled before.
 
-To learn more about Next.js, take a look at the following resources:
+## Noted: 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This is learning project so I'm not just copy paste but trying to learn how is actually working.
